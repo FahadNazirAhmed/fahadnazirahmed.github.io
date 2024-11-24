@@ -1,153 +1,99 @@
 /* General Reset */
-* {
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-}
-
-/* Container */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    background-color: #121212;
+    color: #fff;
 }
 
 /* Hero Section */
-.hero {
-    background-color: #282c34;
-    color: white;
+#hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
     text-align: center;
-    padding: 50px 0;
 }
 
-.hero .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-.hero h1 span {
+.hero-content h1 span {
     color: #61dafb;
 }
 
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.hero .socials a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #61dafb;
-    font-weight: bold;
+.hero-content p {
+    font-size: 1.5rem;
 }
 
 /* About Section */
-.about {
-    background-color: #fff;
-    padding: 50px 0;
+#about {
+    padding: 5rem 2rem;
+    background: #1e1e1e;
     text-align: center;
 }
 
-.about h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-.about p {
-    font-size: 1rem;
-    max-width: 700px;
+#about p {
+    font-size: 1.2rem;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 /* Projects Section */
-.projects {
-    background-color: #f4f4f4;
-    padding: 50px 0;
+#projects {
+    padding: 5rem 2rem;
+    text-align: center;
 }
 
-.projects h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .project {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 700px;
-    text-align: center;
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
 }
 
 .project img {
     width: 100%;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-
-.project h3 {
-    font-size: 1.5rem;
-}
-
-.project p {
-    font-size: 1rem;
-    margin: 10px 0;
-}
-
-.project a {
-    color: #61dafb;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Contact Section */
-.contact {
-    background-color: #282c34;
-    color: white;
-    text-align: center;
-    padding: 50px 0;
-}
-
-.contact h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.contact p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-
-.contact .button {
-    background-color: #61dafb;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px 0;
-    background: #333;
-    color: white;
+    padding: 1rem 0;
+    background: #121212;
+    font-size: 0.9rem;
 }
