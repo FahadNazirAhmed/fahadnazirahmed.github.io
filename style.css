@@ -11,6 +11,41 @@ body {
     color: #ccc; /* Light Gray Text */
 }
 
+/* Navigation Bar */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #111; /* Dark Gray */
+    color: #ccc; /* Light Gray */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Subtle Shadow */
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.nav-name, .nav-position, .nav-location {
+    margin: 0 15px;
+}
+
+.nav-name {
+    font-weight: bold;
+    color: #fff; /* White for Name */
+}
+
+.nav-position, .nav-location {
+    color: #bbb; /* Light Gray for Position and Location */
+}
+
 /* Hero Section */
 #hero {
     background-color: #111; /* Dark Gray Background */
