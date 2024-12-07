@@ -32,12 +32,12 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 								>
 									<img src={gotosite} alt={gotosite} className='w-4/5 h-4/5 object-contain' />
 								</div>
-								<div
+								{/* <div
 									onClick={() => window.open(source_code_link, '_blank')}
 									className='black-gradient w-9 h-9 rounded-full border-[1px] border-secondary flex items-center justify-center cursor-pointer '
 								>
 									<img src={github} alt={github} className='w-4/5 h-4/5 object-contain' />
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className='mt-5'>

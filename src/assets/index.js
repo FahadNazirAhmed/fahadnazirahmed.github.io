@@ -24,56 +24,42 @@ import typescript from './tech/typescript.png';
 import vite from './tech/vite.png';
 import webpack from './tech/webpack.png';
 
-import doctoratwork from './company/doctoratwork.png';
-import doctoratwork1 from './company/doctoratwork1.png';
+//companies
+import alten from './company/alten.png';
+import bim from './company/bim.png';
 import freelance from './company/freelance.png';
 
-import ai_3d_tshirts from './ai_3d_tshirts.jpg';
-import ai_summarizer from './ai_summarizer.jpg';
-import chat_gpt from './chat_gpt.jpg';
-import cns_portfolio from './cns_portfolio.jpg';
-import currency_list from './currency_list.jpg';
-import dcreative from './dcreative.jpg';
-import e_commerce from './e_commerce.jpg';
-import eventlify from './eventlify.jpg';
-import exs_directory from './exs_directory.jpg';
-import game_2048 from './game_2048.jpg';
-import social_network from './social_network.jpg';
-import space_invaders from './space_invaders.jpg';
-import tiny_world_3d from './tiny_world_3d.jpg';
-
+//projects
+import bmw_ar_ride from './projects/bmw_ar.jpg';
+import virtua_prime from './projects/virtua_prime.jpg';
+import virtua_web from './projects/virtua_web.jpg';
+import virtua_ios from './projects/virtua_ios.jpg';
+import virtua_android from './projects/virtua_android.jpg';
+import escape_room from './projects/escape_room.jpg';
+//socials
 import discord from './socials/discord.png';
 import github_alt from './socials/github_alt.png';
 import linkedin from './socials/linkedin.png';
 
 export {
-	ai_3d_tshirts,
-	ai_summarizer,
+	
 	astro,
-	chat_gpt,
 	close,
-	cns_portfolio,
+
 	creator,
 	css,
-	currency_list,
-	dcreative,
-	discord,
-	doctoratwork,
-	doctoratwork1,
-	e_commerce,
-	eventlify,
-	exs_directory,
+	
+	
 	figma,
 	flutter,
-	freelance,
-	game_2048,
+	
 	git,
 	github,
-	github_alt,
+	
 	gotosite,
 	html,
 	javascript,
-	linkedin,
+	
 	logo,
 	menu,
 	mobile,
@@ -81,13 +67,28 @@ export {
 	reactjs,
 	redux,
 	sass,
-	social_network,
-	space_invaders,
 	tailwind,
 	threejs,
-	tiny_world_3d,
 	typescript,
 	vite,
 	web,
 	webpack,
+
+	//companies
+	alten,
+	bim,
+	freelance,
+
+	//projects
+	bmw_ar_ride,
+	virtua_prime,
+	virtua_web,
+	virtua_ios,
+	virtua_android,
+	escape_room,
+
+	//socials
+	discord,
+	github_alt,
+	linkedin,
 };

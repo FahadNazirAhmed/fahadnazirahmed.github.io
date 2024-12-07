@@ -1,40 +1,42 @@
 import {
-	ai_3d_tshirts,
-	ai_summarizer,
-	astro,
-	chat_gpt,
-	cns_portfolio,
+	astro,	
 	css,
-	currency_list,
-	dcreative,
-	discord,
-	doctoratwork,
-	doctoratwork1,
-	e_commerce,
-	eventlify,
-	exs_directory,
 	flutter,
-	freelance,
-	game_2048,
 	git,
-	github_alt,
 	html,
 	javascript,
-	linkedin,
 	qwik,
 	reactjs,
-	social_network,
-	space_invaders,
 	tailwind,
 	threejs,
-	tiny_world_3d,
 	typescript,
 	vite,
 	webpack,
+	//companies 
+	alten,
+	bim,
+	freelance,
+	//projects
+	bmw_ar_ride,
+	virtua_prime,
+	virtua_web,
+	virtua_ios,
+	virtua_android,
+	escape_room,
+
+	//socials
+	github_alt,
+	linkedin,
+	discord,
+
+	
 } from '../assets';
 
-const githubUser = import.meta.env.VITE_APP_GITHUB_USER;
-const linkedinUser = import.meta.env.VITE_APP_LINKEDIN_USER;
+// const githubUser = import.meta.env.VITE_APP_GITHUB_USER;
+// const linkedinUser = import.meta.env.VITE_APP_LINKEDIN_USER;
+// const discordUser = import.meta.env.VITE_APP_DISCORD_USER;
+const githubUser = 'FahadNazirAhmed/';
+const linkedinUser = 'fahadnazirahmed/';
 const discordUser = import.meta.env.VITE_APP_DISCORD_USER;
 
 export const navLinks = [
@@ -109,45 +111,47 @@ const technologies = [
 
 const experiences = [
 	{
-		title: 'Frontend Developer',
-		company_name: 'Doctor At Work',
-		icon: doctoratwork,
+		title: 'Software Engineer, Unity AR',
+		company_name: 'ALTEN',
+		icon: alten,
 		iconBg: '#383E56',
-		date: 'September 2020 - September 2024',
+		date: 'April 2023 - April 2024',
 		points: [
-			'Developed and supported over 150 websites and web applications, as well as other visual materials for advertising campaigns using Figma design layouts using React, Next, JavaScript, HTML, CSS.',
-			"Adapted and refined the code of third-party client projects made in React framework, revised for publication on the company's platforms.",
-			'By modernizing layout templates for pharmaceutical advertising projects, I increased the productivity of my team by 25%, which allowed us to implement projects faster and more efficiently.',
-			'Implemented a systematic code review process that reduced the number of errors and reduced project deadlines by 20%, which in turn led to an increase in the profitability of the organization.',
-			'Collaborated with cross-functional teams, including designers, project managers, and other developers to create high-quality products.',
-			'Worked with Vite, Webpack builders, used in projects: JavaScript, React, Next, ThreeJS.',
+			'Developed AR Ride project for BMW Group, Highlight of CES 2024, Las Vegas.',
+			"Coded BMW’s AR Glasses, optimized workflows, coded live CSV logging.",
+			'Upgraded real-time maps navi’ with generative AI, car orientation & routes.',
+			'Implemented real-time hazards, warnings, charging stations, parking spots in real environment using live data via protocol buffers, seen in XREAL Air 2 Glasses.',
+			'Optimized, load tested at 90+ FPS; immersive graphics via Shader & VFX graphs.',
 		],
 	},
-	// {
-	// 	title: 'Web Developer',
-	// 	company_name: 'Doctor At Work',
-	// 	icon: doctoratwork1,
-	// 	iconBg: '#E6DEDD',
-	// 	date: 'September 2020 - February 2021',
-	// 	points: [
-	// 		'Developing and maintaining websites using JavaScript, HTML5, CSS3, SCSS, Canvas and other related technologies.',
-	// 		'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-	// 		'Implementing responsive design and ensuring cross-browser compatibility.',
-	// 	],
-	// },
 	{
-		title: 'Frontend Developer',
+		title: 'Software Engineer, Unity XR',
+		company_name: 'Big Immersive',
+		icon: bim,
+		iconBg: '#383E56',
+		date: 'September 2021 - November 2022',
+		points: [
+			'Pioneered cross-platform multiplayer Metaverse and XR projects for Virtua.',
+			'Integrated real-time multiplayer exp. with PUN, Fusion & Voice Chat SDKs.',
+			'Updated game loops, comm. bridges in Unity vs Native Apps, Integrated Git.',
+			'Engineered real-time facial mapping features, reducing AR latency by 30%.',
+			'Debugged and troubleshoot critical issues, collaborating across teams at all levels.',
+			
+		],
+	},
+	{
+		title: 'Software Engineer, Unity',
 		company_name: 'Freelance | Self-employed',
 		icon: freelance,
 		iconBg: '#383E56',
-		date: 'January 2019 - September 2020',
+		date: 'March 2020 - October 2021',
 		points: [
-			'Developed and maintained over 30 websites using JavaScript, React, HTML5, CSS3, SASS/SCSS and other related technologies.',
-			'Implemented responsive adaptive design and ensured cross-browser compatibility.',
+			'Coded AR and 3D Games end-to-end. Tools: Unity Engine, C#.',
+			'Coded GUIs for gameplay. Used OOP, design patterns.',
+			'Identified in-game performance bottlenecks; reduced debugging time.',
 		],
 	},
 ];
-
 const projects = [
 	// {
 	// 	name: 'E-Commerce Shop App',
@@ -176,7 +180,7 @@ const projects = [
 	// 	website_link: 'https://e-commerce-exs.payloadcms.app/',
 	// },
 	{
-		name: '3D Tiny World',
+		name: 'BMW AR Ride',
 		description:
 			'Take a look at my latest 3D portfolio outstanding animated website with levitating island and flying models using 3D-graphics and animations with ThreeJS, React and Tailwind.',
 		tags: [
@@ -197,12 +201,11 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: tiny_world_3d,
-		source_code_link: 'https://github.com/exslym/Tiny-World-3D/',
-		website_link: 'https://exslym.github.io/Tiny-World-3D/',
+		image: bmw_ar_ride,
+		website_link: 'https://www.press.bmwgroup.com/deutschland/video/detail/PF0009627/ar-ride-concept',
 	},
 	{
-		name: 'Eventlify',
+		name: 'Virtua Prime',
 		description:
 			'The events web application stands as a comprehensive, full-stack platform for managing events taking place globally. With this app you have the capability to purchase tickets for any event published there or even initiate and manage your own events.',
 		tags: [
@@ -223,12 +226,11 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: eventlify,
-		source_code_link: 'https://github.com/exslym/eventlify/',
-		website_link: 'https://eventlify-exs.vercel.app/',
+		image: virtua_prime,
+		website_link: 'https://prime.virtua.com/',
 	},
 	{
-		name: '3D T-Shirts AI Design',
+		name: 'Virtua',
 		description:
 			'A website project where you can make custom design t-shirts in 3D with the help of AI in real-time. You can also choose color or upload your own images to make your t-shirt truly unique.',
 		tags: [
@@ -249,12 +251,11 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: ai_3d_tshirts,
-		source_code_link: 'https://github.com/exslym/3D-AI-Project/',
-		website_link: 'https://exslym.github.io/3D-AI-Project/',
+		image: virtua_web,
+		website_link: 'https://marketplace.virtua.com/',
 	},
 	{
-		name: 'Startups Directory',
+		name: 'Virtua Metaverse iOS',
 		description:
 			'A web application, which is a platform where entrepreneurs can submit their startup ideas for virtual pitch competitions, explore other pitches, and gain exposure through a clean minimalist design for a seamless user experience.',
 		tags: [
@@ -275,12 +276,11 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: exs_directory,
-		source_code_link: 'https://github.com/exslym/ex_directory',
-		website_link: 'https://ex-directory.vercel.app/',
+		image: virtua_ios,
+		website_link: 'https://apps.apple.com/gb/app/virtua-metaverse/id1597744060',
 	},
 	{
-		name: 'Cryptocurrency Prices',
+		name: 'Virtua Metaverse Android',
 		description:
 			'A website version of mobile App created using the Flutter framework. The app provides real-time information about the prices of various cryptocurrencies such as Bitcoin, Ethereum, Litecoin, and many others.',
 		tags: [
@@ -301,12 +301,11 @@ const projects = [
 				color: 'yellow-text-gradient',
 			},
 		],
-		image: currency_list,
-		source_code_link: 'https://github.com/exslym/Crypto-Coins-List/',
-		website_link: 'https://cryptocurrency-prices-exslym.vercel.app/',
+		image: virtua_android,
+		website_link: 'https://play.google.com/store/apps/details?id=com.terravirtua.prod&hl=en_US',
 	},
 	{
-		name: 'ChatGPT App (web vers.)',
+		name: 'Escape Room Series',
 		description:
 			'A website version of mobile app ChatGPT project where you can interact with openAI chatbot based on gpt-3.5-turbo-0301 model, also you can choose other model on the fly.',
 		tags: [
@@ -323,88 +322,87 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: chat_gpt,
-		source_code_link: 'https://github.com/exslym/ChatGPT_App/',
-		website_link: 'https://chat-gpt-app-exslym.vercel.app/',
+		image: escape_room,
+		website_link: 'https://www.meta.com/en-gb/experiences/pcvr/an-escape-room-series-robbery-at-the-museum/1460620137349867/',
 	},
-	{
-		name: 'D-Creative Studio',
-		description:
-			'An outstanding animate-on-scroll landing for Creative Studio - a team of innovative designers, developers, videographs and artists who specialize in crafting unique and engaging digital experiences for their clients.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'html',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'animations',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: dcreative,
-		source_code_link: 'https://github.com/exslym/d-creative-studio/',
-		website_link: 'https://exslym.github.io/d-creative-studio/',
-	},
-	{
-		name: 'Space Invaders [Game]',
-		description:
-			'Web-based legendary classic arcade game Space Invaders made with JavaScript and Canvas with its iconic pixel graphics and addictive gameplay with mobile adaptivity and touch controls.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'html',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'canvas',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: space_invaders,
-		source_code_link: 'https://github.com/exslym/Space-Invaders_GAME/',
-		website_link: 'https://exslym.github.io/Space-Invaders_GAME/',
-	},
-	{
-		name: '2048 [Game]',
-		description:
-			'This is a popular puzzle game where the player must combine numbered tiles to reach the ultimate goal of creating a tile with the number 2048. When two tiles with the same number collide, they merge into one tile with a value equal to the sum of the two.',
-		tags: [
-			{
-				name: 'javascript',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'htnl',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'scss',
-				color: 'pink-text-gradient',
-			},
-			{
-				name: 'algorithms',
-				color: 'yellow-text-gradient',
-			},
-		],
-		image: game_2048,
-		source_code_link: 'https://github.com/exslym/2048-Game/',
-		website_link: 'https://exslym.github.io/2048-Game/',
-	},
+	// {
+	// 	name: 'D-Creative Studio',
+	// 	description:
+	// 		'An outstanding animate-on-scroll landing for Creative Studio - a team of innovative designers, developers, videographs and artists who specialize in crafting unique and engaging digital experiences for their clients.',
+	// 	tags: [
+	// 		{
+	// 			name: 'javascript',
+	// 			color: 'blue-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'html',
+	// 			color: 'green-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'scss',
+	// 			color: 'pink-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'animations',
+	// 			color: 'yellow-text-gradient',
+	// 		},
+	// 	],
+	// 	image: dcreative,
+	// 	source_code_link: 'https://github.com/exslym/d-creative-studio/',
+	// 	website_link: 'https://exslym.github.io/d-creative-studio/',
+	// },
+	// {
+	// 	name: 'Space Invaders [Game]',
+	// 	description:
+	// 		'Web-based legendary classic arcade game Space Invaders made with JavaScript and Canvas with its iconic pixel graphics and addictive gameplay with mobile adaptivity and touch controls.',
+	// 	tags: [
+	// 		{
+	// 			name: 'javascript',
+	// 			color: 'blue-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'html',
+	// 			color: 'green-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'scss',
+	// 			color: 'pink-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'canvas',
+	// 			color: 'yellow-text-gradient',
+	// 		},
+	// 	],
+	// 	image: space_invaders,
+	// 	source_code_link: 'https://github.com/exslym/Space-Invaders_GAME/',
+	// 	website_link: 'https://exslym.github.io/Space-Invaders_GAME/',
+	// },
+	// {
+	// 	name: '2048 [Game]',
+	// 	description:
+	// 		'This is a popular puzzle game where the player must combine numbered tiles to reach the ultimate goal of creating a tile with the number 2048. When two tiles with the same number collide, they merge into one tile with a value equal to the sum of the two.',
+	// 	tags: [
+	// 		{
+	// 			name: 'javascript',
+	// 			color: 'blue-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'htnl',
+	// 			color: 'green-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'scss',
+	// 			color: 'pink-text-gradient',
+	// 		},
+	// 		{
+	// 			name: 'algorithms',
+	// 			color: 'yellow-text-gradient',
+	// 		},
+	// 	],
+	// 	image: game_2048,
+	// 	source_code_link: 'https://github.com/exslym/2048-Game/',
+	// 	website_link: 'https://exslym.github.io/2048-Game/',
+	// },
 	// {
 	// 	name: 'AI Article Summarizer',
 	// 	description:
@@ -427,7 +425,7 @@ const projects = [
 	// 			color: 'yellow-text-gradient',
 	// 		},
 	// 	],
-	// 	image: ai_summarizer,
+	
 	// 	source_code_link: 'https://github.com/exslym/AI-Summarizer/',
 	// 	website_link: 'https://exslym.github.io/AI-Summarizer/',
 	// },
@@ -479,6 +477,41 @@ const projects = [
 	// },
 ];
 
+// const clients = [
+// 	{
+// 		name: 'JavaScript',
+// 		icon: javascript,
+// 	},
+// 	{
+// 		name: 'TypeScript',
+// 		icon: typescript,
+// 	},
+// 	{
+// 		name: 'React',
+// 		icon: reactjs,
+// 	},
+// 	{
+// 		name: 'Tailwind',
+// 		icon: tailwind,
+// 	},
+// 	{
+// 		name: 'ThreeJS',
+// 		icon: threejs,
+// 	},
+// 	{
+// 		name: 'Qwik',
+// 		icon: qwik,
+// 	},
+// 	{
+// 		name: 'Astro',
+// 		icon: astro,
+// 	},
+
+// 	{
+// 		name: 'Vite',
+// 		icon: vite,
+// 	},
+// ];
 const socials = [
 	{
 		name: 'linkedin',
@@ -497,4 +530,4 @@ const socials = [
 	},
 ];
 
-export { experiences, projects, socials, technologies };
+export { experiences, projects, socials, technologies};

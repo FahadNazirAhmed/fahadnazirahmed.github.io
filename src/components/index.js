@@ -6,6 +6,8 @@ import Navbar from './Navbar';
 import Socials from './Socials';
 import Tech from './Tech';
 import Works from './Works';
+//import Clients from './Clients';
+
 import { BallCanvas, ComputersCanvas, EarthCanvas, SphereCanvas, StarsCanvas } from './canvas';
 
 export {
@@ -21,4 +23,5 @@ export {
 	StarsCanvas,
 	Tech,
 	Works,
+	//Clients,
 };

@@ -16,20 +16,18 @@ const About = () => {
 				variants={fadeIn('', '', 0.2, 1)}
 				className='mt-4 text-primary text-[17px] max-w-3xl leading-[30px]'
 			>
-				Experienced and&nbsp;results&#8209;driven Frontend Developer with 5&nbsp;years
-				of&nbsp;expertise in&nbsp;JavaScript, TypeScript, and&nbsp;advanced libraries like React,
-				NextJS, and&nbsp;ThreeJS.
+				With over 3.5 years of experience in Unity development, I have contributed to high-profile projects 
+				like BMW's AR Ride at CES 2024 and Virtua Prime Metaverse. My passion lies in creating immersive AR, 
+				VR, and XR experiences, and I’ve successfully launched 5+ projects across various platforms.
 				<br />
-				Known for&nbsp;delivering interactive and&nbsp;user&#8209;focused solutions, I&nbsp;have
-				a&nbsp;strong track record of&nbsp;enhancing user engagement and&nbsp;optimizing frontend
-				performance.
+				I specialize in leveraging cutting-edge technologies like ARCore, ARKit, and OpenXR to craft engaging 
+				digital worlds. I am also proficient in multiplayer networking solutions such as Photon Unity Networking
+				 and Fusion, ensuring seamless, real-time user interactions in the virtual environment.
 				<br />
-				I&nbsp;am passionate about leveraging the&nbsp;latest technologies to&nbsp;create dynamic
-				digital experiences.
-				<br />
-				With a&nbsp;strong eye for&nbsp;detail and&nbsp;a&nbsp;commitment to&nbsp;quality,
-				I&nbsp;thrive on&nbsp;crafting visually appealing and&nbsp;highly functional web solutions
-				that meet both business and&nbsp;user needs.
+				Having worked in diverse industries like automotive, gaming, and mobile app development, I thrive in 
+				fast-paced environments. My background in game design, efficient coding practices, and data-driven optimization
+				 helps me deliver high-performance solutions across various platforms.
+
 			</motion.p>
 		</>
 	);
