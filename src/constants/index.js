@@ -12,6 +12,14 @@ import {
 	typescript,
 	vite,
 	webpack,
+	//Tech
+	python,
+	unity,
+	unreal,
+	cplus,
+	csharp,
+
+
 	//companies 
 	alten,
 	bim,
@@ -32,11 +40,8 @@ import {
 	
 } from '../assets';
 
-// const githubUser = import.meta.env.VITE_APP_GITHUB_USER;
-// const linkedinUser = import.meta.env.VITE_APP_LINKEDIN_USER;
-// const discordUser = import.meta.env.VITE_APP_DISCORD_USER;
-const githubUser = 'FahadNazirAhmed/';
-const linkedinUser = 'fahadnazirahmed/';
+const githubUser = import.meta.env.VITE_APP_GITHUB_USER || 'FahadNazirAhmed';
+const linkedinUser = import.meta.env.VITE_APP_LINKEDIN_USER || 'fahadnazirahmed';
 const discordUser = import.meta.env.VITE_APP_DISCORD_USER;
 
 export const navLinks = [
@@ -55,58 +60,42 @@ export const navLinks = [
 ];
 
 const technologies = [
+
+
+	{
+		name: 'HTML5',
+		icon: html,
+	},
 	{
 		name: 'JavaScript',
 		icon: javascript,
 	},
 	{
-		name: 'TypeScript',
-		icon: typescript,
+		name: 'git',
+		icon: git,
 	},
 	{
-		name: 'React',
-		icon: reactjs,
+		name: 'Unity',
+		icon: unity,
+	},
+
+	{
+		name: 'csharp',
+		icon: csharp,
 	},
 	{
-		name: 'Tailwind',
-		icon: tailwind,
+		name: 'cplus',
+		icon: cplus,
 	},
 	{
-		name: 'ThreeJS',
-		icon: threejs,
+		name: 'unreal',
+		icon: unreal,
 	},
 	{
-		name: 'Qwik',
-		icon: qwik,
+		name: 'python',
+		icon: python,
 	},
-	{
-		name: 'Astro',
-		icon: astro,
-	},
-	// {
-	// 	name: 'HTML5',
-	// 	icon: html,
-	// },
-	// {
-	// 	name: 'CSS3',
-	// 	icon: css,
-	// },
-	// {
-	// 	name: 'Flutter',
-	// 	icon: flutter,
-	// },
-	// {
-	// 	name: 'git',
-	// 	icon: git,
-	// },
-	// {
-	// 	name: 'Webpack',
-	// 	icon: webpack,
-	// },
-	{
-		name: 'Vite',
-		icon: vite,
-	},
+
 ];
 
 const experiences = [
@@ -118,10 +107,11 @@ const experiences = [
 		date: 'April 2023 - April 2024',
 		points: [
 			'Developed AR Ride project for BMW Group, Highlight of CES 2024, Las Vegas.',
-			"Coded BMW’s AR Glasses, optimized workflows, coded live CSV logging.",
-			'Upgraded real-time maps navi’ with generative AI, car orientation & routes.',
+			"Write and optimized C# code to create efficient and reusable components.",
+			'Upgraded real-time maps with generative AI, car orientation, and routes',
 			'Implemented real-time hazards, warnings, charging stations, parking spots in real environment using live data via protocol buffers, seen in XREAL Air 2 Glasses.',
-			'Optimized, load tested at 90+ FPS; immersive graphics via Shader & VFX graphs.',
+			'Optimized graphics, shaders, lighting, render pipelines maintained 90+ FPS.',
+		
 		],
 	},
 	{
@@ -132,11 +122,11 @@ const experiences = [
 		date: 'September 2021 - November 2022',
 		points: [
 			'Pioneered cross-platform multiplayer Metaverse and XR projects for Virtua.',
-			'Integrated real-time multiplayer exp. with PUN, Fusion & Voice Chat SDKs.',
-			'Updated game loops, comm. bridges in Unity vs Native Apps, Integrated Git.',
+			'Integrated real-time multiplayer with PUN, Fusion & Voice Chat SDKs.',
+			'Developed Unity AR Mobile apps for iOS and Android, Integrated Git.',
 			'Engineered real-time facial mapping features, reducing AR latency by 30%.',
 			'Debugged and troubleshoot critical issues, collaborating across teams at all levels.',
-			
+
 		],
 	},
 	{
@@ -148,7 +138,8 @@ const experiences = [
 		points: [
 			'Coded AR and 3D Games end-to-end. Tools: Unity Engine, C#.',
 			'Coded GUIs for gameplay. Used OOP, design patterns.',
-			'Identified in-game performance bottlenecks; reduced debugging time.',
+			'Identified and resolved bottlenecks and enhanced performance.',
+
 		],
 	},
 ];
@@ -182,22 +173,22 @@ const projects = [
 	{
 		name: 'BMW AR Ride',
 		description:
-			'Take a look at my latest 3D portfolio outstanding animated website with levitating island and flying models using 3D-graphics and animations with ThreeJS, React and Tailwind.',
+			"Generative AI, augmented reality, and remote-controlled parking – the digital experience in the BMW of the future at CES 2024. The potential of augmented reality glasses while driving as a passenger and discovering new ones through generative ones Experience the AI-enabled capabilities of the BMW Intelligent Personal Assistant, which uses the Alexa Large Language Model (LLM) to become the ultimate vehicle expert.",
 		tags: [
 			{
-				name: 'javascript',
+				name: 'Unity',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'react',
+				name: 'C#',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwindcss',
+				name: 'Python',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'threejs',
+				name: 'C++',
 				color: 'yellow-text-gradient',
 			},
 		],
@@ -207,22 +198,22 @@ const projects = [
 	{
 		name: 'Virtua Prime',
 		description:
-			'The events web application stands as a comprehensive, full-stack platform for managing events taking place globally. With this app you have the capability to purchase tickets for any event published there or even initiate and manage your own events.',
+			'A cross-platform multiplayer Metaverse to present NFT collection, with coded implementations of voice chatting, DLC and Addressable asset system, REST APIS, Landsale, Cardano Islands, Multiple Wallet integrations, AWS Services, Artificial intelligence, Pagination, Asset-Pooling, and In-Game Customizations.',
 		tags: [
 			{
-				name: 'typescript',
+				name: 'Unity',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'react',
+				name: 'C#',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwindcss',
+				name: 'Javascript',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'next14',
+				name: 'firebase',
 				color: 'yellow-text-gradient',
 			},
 		],
@@ -232,22 +223,22 @@ const projects = [
 	{
 		name: 'Virtua',
 		description:
-			'A website project where you can make custom design t-shirts in 3D with the help of AI in real-time. You can also choose color or upload your own images to make your t-shirt truly unique.',
+			'A WebGL website where you can make custom design t-shirts in 3D with the help of AI in real-time. You can also choose color or upload your own images to make your t-shirt truly unique.',
 		tags: [
 			{
-				name: 'javascript',
+				name: 'Unity',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'react',
+				name: 'C#',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwindcss',
+				name: 'Javascript',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'openai',
+				name: 'React',
 				color: 'yellow-text-gradient',
 			},
 		],
@@ -257,22 +248,22 @@ const projects = [
 	{
 		name: 'Virtua Metaverse iOS',
 		description:
-			'A web application, which is a platform where entrepreneurs can submit their startup ideas for virtual pitch competitions, explore other pitches, and gain exposure through a clean minimalist design for a seamless user experience.',
+			'A unity wrapper to communicate with the native applications and perform desired functionalities like Augmented Reality, Face Masks, Blendshapes, AR Kit, Particle system, Physics 2D, Raycasting, Screen Capturing, and Recording, displaying 3D models, playing animations, DLC and Addressable asset system, Sound Effects, and Error Handling.',
 		tags: [
 			{
-				name: 'typescript',
+				name: 'Unity',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'react19',
+				name: 'C#',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwindcss',
+				name: 'XCode',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'next15',
+				name: 'ARKit',
 				color: 'yellow-text-gradient',
 			},
 		],
@@ -282,22 +273,22 @@ const projects = [
 	{
 		name: 'Virtua Metaverse Android',
 		description:
-			'A website version of mobile App created using the Flutter framework. The app provides real-time information about the prices of various cryptocurrencies such as Bitcoin, Ethereum, Litecoin, and many others.',
+			'A unity wrapper to communicate with the native applications and perform desired functionalities like Augmented Reality, Face Masks, AR Core, AR Face Regions, Particle system, Physics 2D, Raycasting, Screen Capturing, and Recording, displaying 3D models, playing animations, DLC and Addressable asset system, Sound Effects, and Error Handling.',
 		tags: [
 			{
-				name: 'dart',
+				name: 'Unity',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'flutter',
+				name: 'C#',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'bloc',
+				name: 'Android Studio',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'firebase',
+				name: 'ARCore',
 				color: 'yellow-text-gradient',
 			},
 		],
@@ -307,19 +298,23 @@ const projects = [
 	{
 		name: 'Escape Room Series',
 		description:
-			'A website version of mobile app ChatGPT project where you can interact with openAI chatbot based on gpt-3.5-turbo-0301 model, also you can choose other model on the fly.',
+			'VR Experience where player is inside a museum with airtight security and mind-numbing puzzles. Mission is to access different rooms to get the most valuable item in the museum.',
 		tags: [
 			{
-				name: 'dart',
+				name: 'Unity',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'flutter',
+				name: 'C#',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'openai-api',
+				name: 'OpenXR',
 				color: 'pink-text-gradient',
+			},
+			{
+				name: 'Oculus',
+				color: 'yellow-text-gradient',
 			},
 		],
 		image: escape_room,
@@ -482,46 +477,17 @@ const projects = [
 // 		name: 'JavaScript',
 // 		icon: javascript,
 // 	},
-// 	{
-// 		name: 'TypeScript',
-// 		icon: typescript,
-// 	},
-// 	{
-// 		name: 'React',
-// 		icon: reactjs,
-// 	},
-// 	{
-// 		name: 'Tailwind',
-// 		icon: tailwind,
-// 	},
-// 	{
-// 		name: 'ThreeJS',
-// 		icon: threejs,
-// 	},
-// 	{
-// 		name: 'Qwik',
-// 		icon: qwik,
-// 	},
-// 	{
-// 		name: 'Astro',
-// 		icon: astro,
-// 	},
-
-// 	{
-// 		name: 'Vite',
-// 		icon: vite,
-// 	},
 // ];
 const socials = [
-	{
-		name: 'linkedin',
-		icon: linkedin,
-		link: `https://www.linkedin.com/in/${linkedinUser}/`,
-	},
 	{
 		name: 'github',
 		icon: github_alt,
 		link: `https://github.com/${githubUser}/`,
+	},
+	{
+		name: 'linkedin',
+		icon: linkedin,
+		link: `https://www.linkedin.com/in/${linkedinUser}/`,
 	},
 	{
 		name: 'discord',

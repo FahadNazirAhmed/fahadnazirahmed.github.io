@@ -7,13 +7,11 @@ import menu from './menu.svg';
 import mobile from './mobile.png';
 import web from './web.png';
 
+//techs
 import astro from './tech/astro.png';
 import css from './tech/css.png';
 import figma from './tech/figma.png';
 import flutter from './tech/flutter.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
 import qwik from './tech/qwik.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
@@ -23,6 +21,15 @@ import threejs from './tech/threejs.svg';
 import typescript from './tech/typescript.png';
 import vite from './tech/vite.png';
 import webpack from './tech/webpack.png';
+//used
+import git from './tech/git.png';
+import html from './tech/html.png';
+import javascript from './tech/javascript.png';
+import python from './tech/python.png';
+import unity from './tech/unity.png';
+import unreal from './tech/unreal.png';
+import cplus from './tech/cplus.png';
+import csharp from './tech/csharp.png';
 
 //companies
 import alten from './company/alten.png';
@@ -53,12 +60,12 @@ export {
 	figma,
 	flutter,
 	
-	git,
+	
 	github,
 	
 	gotosite,
-	html,
-	javascript,
+
+	
 	
 	logo,
 	menu,
@@ -67,12 +74,27 @@ export {
 	reactjs,
 	redux,
 	sass,
-	tailwind,
-	threejs,
-	typescript,
+
 	vite,
 	web,
 	webpack,
+	
+	//Tech
+	git,
+	html,
+	javascript,
+	python,
+	unity,
+	unreal,
+	cplus,
+	csharp,
+
+
+	//unused
+	tailwind,
+	threejs,
+	typescript,
+
 
 	//companies
 	alten,

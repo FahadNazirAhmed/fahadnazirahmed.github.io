@@ -27,8 +27,8 @@ const Hero = () => {
 					<p
 						className={`${styles.heroSubText} relative z-10 mt-2 text-white-100 md:max-w-[640px] max-w-[460px] `}
 					>
-						I'm an experienced Unity Developer, <br />I also develop 3D visuals, user interfaces
-						and&nbsp;web applications.
+						An experienced Unity Developer, <br/>I develop AR VR XR Experiences, Games
+						and&nbsp; applications.
 					</p>
 				</div>
 			</div>
