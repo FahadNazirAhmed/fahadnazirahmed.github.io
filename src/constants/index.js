@@ -119,7 +119,7 @@ const experiences = [
 		company_name: 'Big Immersive',
 		icon: bim,
 		iconBg: '#383E56',
-		date: 'September 2021 - November 2022',
+		date: 'September 2021 - March 2023',
 		points: [
 			'Pioneered cross-platform multiplayer Metaverse and XR projects for Virtua.',
 			'Integrated real-time multiplayer with PUN, Fusion & Voice Chat SDKs.',
