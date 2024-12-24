@@ -107,73 +107,37 @@ const experiences = [
 		date: 'April 2023 - April 2024',
 		points: [
 			'Developed AR Ride project for BMW Group, Highlight of CES 2024, Las Vegas.',
-			"Write and optimized C# code to create efficient and reusable components.",
-			'Upgraded real-time maps with generative AI, car orientation, and routes',
-			'Implemented real-time hazards, warnings, charging stations, parking spots in real environment using live data via protocol buffers, seen in XREAL Air 2 Glasses.',
-			'Optimized graphics, shaders, lighting, render pipelines maintained 90+ FPS.',
-		
 		],
 	},
 	{
-		title: 'Software Engineer, Unity XR',
+		title: 'Software Engineer, Unity AR/VR',
 		company_name: 'Big Immersive',
 		icon: bim,
 		iconBg: '#383E56',
 		date: 'September 2021 - March 2023',
 		points: [
-			'Pioneered cross-platform multiplayer Metaverse and XR projects for Virtua.',
-			'Integrated real-time multiplayer with PUN, Fusion & Voice Chat SDKs.',
-			'Developed Unity AR Mobile apps for iOS and Android, Integrated Git.',
-			'Engineered real-time facial mapping features, reducing AR latency by 30%.',
-			'Debugged and troubleshoot critical issues, collaborating across teams at all levels.',
+			'Developed AR VR projects for Vitura.',
 
 		],
 	},
 	{
-		title: 'Software Engineer, Unity',
+		title: 'Software Engineer, Unity XR',
 		company_name: 'Freelance | Self-employed',
 		icon: freelance,
 		iconBg: '#383E56',
 		date: 'March 2020 - October 2021',
 		points: [
-			'Coded AR and 3D Games end-to-end. Tools: Unity Engine, C#.',
-			'Coded GUIs for gameplay. Used OOP, design patterns.',
-			'Identified and resolved bottlenecks and enhanced performance.',
-
+			'Coded AR, XR and 3D Games. Tools: Unity Engine, C#.',
+			
 		],
 	},
 ];
 const projects = [
-	// {
-	// 	name: 'E-Commerce Shop App',
-	// 	description:
-	// 		'A tech-related e-commerce shop page that even guests can visit, allowing users to explore products, apply category filters, and see more products with pagination, which is key for performance in e-commerce projects.',
-	// 	tags: [
-	// 		{
-	// 			name: 'typescript',
-	// 			color: 'blue-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'react',
-	// 			color: 'green-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'payloadcms',
-	// 			color: 'pink-text-gradient',
-	// 		},
-	// 		{
-	// 			name: 'next',
-	// 			color: 'yellow-text-gradient',
-	// 		},
-	// 	],
-	// 	image: e_commerce,
-	// 	source_code_link: 'https://github.com/exslym/ecommerce/',
-	// 	website_link: 'https://e-commerce-exs.payloadcms.app/',
-	// },
+
 	{
 		name: 'BMW AR Ride',
 		description:
-			"Generative AI, augmented reality, and remote-controlled parking – the digital experience in the BMW of the future at CES 2024. The potential of augmented reality glasses while driving as a passenger and discovering new ones through generative ones Experience the AI-enabled capabilities of the BMW Intelligent Personal Assistant, which uses the Alexa Large Language Model (LLM) to become the ultimate vehicle expert.",
+			"Generative AI, augmented reality, and remote-controlled parking – the digital experience in the BMW of the future at CES 2024. The potential of augmented reality glasses while driving as a passenger.",
 		tags: [
 			{
 				name: 'Unity',
@@ -198,7 +162,7 @@ const projects = [
 	{
 		name: 'Virtua Prime',
 		description:
-			'A cross-platform multiplayer Metaverse to present NFT collection, with coded implementations of voice chatting, DLC and Addressable asset system, REST APIS, Landsale, Cardano Islands, Multiple Wallet integrations, AWS Services, Artificial intelligence, Pagination, Asset-Pooling, and In-Game Customizations.',
+			'A cross-platform multiplayer Metaverse to schowcase NFT collection. with coded implementations of In-Game Customizations, voice chatting, Artificial intelligence, DLC and Addressable asset system, REST APIS, Landsale, Multiple Wallet integrations, AWS Services, and Asset-Pooling.',
 		tags: [
 			{
 				name: 'Unity',
@@ -209,11 +173,11 @@ const projects = [
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'Javascript',
+				name: 'WebGL',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'firebase',
+				name: 'Javascript',
 				color: 'yellow-text-gradient',
 			},
 		],
@@ -223,7 +187,7 @@ const projects = [
 	{
 		name: 'Virtua',
 		description:
-			'A WebGL website where you can make custom design t-shirts in 3D with the help of AI in real-time. You can also choose color or upload your own images to make your t-shirt truly unique.',
+			'A web NFT Marketlplace where you can make see NFT in 3D and purchase in real-time.',
 		tags: [
 			{
 				name: 'Unity',
@@ -248,7 +212,7 @@ const projects = [
 	{
 		name: 'Virtua Metaverse iOS',
 		description:
-			'A unity wrapper to communicate with the native applications and perform desired functionalities like Augmented Reality, Face Masks, Blendshapes, AR Kit, Particle system, Physics 2D, Raycasting, Screen Capturing, and Recording, displaying 3D models, playing animations, DLC and Addressable asset system, Sound Effects, and Error Handling.',
+			'A mobile NFT Markplace, where users can visualize NFT in AR and 3D Space. Integrated AR Face Masks controlled with face gestures',
 		tags: [
 			{
 				name: 'Unity',
@@ -273,7 +237,7 @@ const projects = [
 	{
 		name: 'Virtua Metaverse Android',
 		description:
-			'A unity wrapper to communicate with the native applications and perform desired functionalities like Augmented Reality, Face Masks, AR Core, AR Face Regions, Particle system, Physics 2D, Raycasting, Screen Capturing, and Recording, displaying 3D models, playing animations, DLC and Addressable asset system, Sound Effects, and Error Handling.',
+			'A mobile NFT Markplace, where users can visualize NFT in AR and 3D Space. Integrated AR Face Masks controlled with face regions',
 		tags: [
 			{
 				name: 'Unity',
